@@ -1,0 +1,22 @@
+header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 20px;
+    background-color: #007aea;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  
+  header h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  header select {
+    padding: 5px;
+    background-color: #004c92;
+    border-color: #004c92;
+    border-radius: 3px;
+    color: white;
+  }

@@ -1,0 +1,4 @@
+.lista-tareas {
+    display: flex;
+    flex-direction: column;
+  }

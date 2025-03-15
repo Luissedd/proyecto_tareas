@@ -1,0 +1,30 @@
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .tarea.completada {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .tarea span {
+    cursor: pointer;
+  }
+  
+  .acciones button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .acciones button:hover {
+    color: #007bff;
+  }
